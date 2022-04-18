@@ -18,15 +18,15 @@
       {% csrf_token %}
   <div class="mb-3">
     <label for="c_rate" class="form-label">Current Rate per Quintal</label>
-    <input type="number" class="form-control" name = "c_rate" id="c_rate" aria-describedby="emailHelp">
+    <input type="number" step="any" class="form-control" name = "c_rate" id="c_rate" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
     <label for="bags" class="form-label">Number of Bags</label>
-    <input type="number" class="form-control"  name = "bags" id="bags">
+    <input type="number" step="any" class="form-control"  name = "bags" id="bags">
   </div>
       <div class="mb-3">
     <label for="Ebag" class="form-label">Cost of empty bag</label>
-    <input type="number" class="form-control" name="Ebag" id="Ebag">
+    <input type="number" step="any" class="form-control" name="Ebag" id="Ebag">
         <div id="email" class="form-text">if cost of empty bag not required press 0</div>
   </div>
   <h7> Rate will be calculated for 68 kgs per bag</h7>
